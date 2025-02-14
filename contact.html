@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Atmin</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4e3721, #005700);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #009c00;
+        }
+
+        .contact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            font-size: 22px;
+        }
+
+        .whatsapp {
+            background: #25d366;
+        }
+
+        .whatsapp:hover {
+            background: #1da851;
+        }
+
+        .instagram {
+            background: #e1306c;
+        }
+
+        .instagram:hover {
+            background: #c71d58;
+        }
+
+        .email {
+            background: #ff9800;
+        }
+
+        .email:hover {
+            background: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kontak Atmin</h1>
+        <div class="contact-list">
+            <a href="https://wa.me/628118907212" class="contact-item whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp 08118908212
+            </a>
+            <a href="https://instagram.com/username" class="contact-item instagram">
+                <i class="fab fa-instagram"></i> Instagram @kulinermarcel_S10
+            </a>
+            <a href="mailto:email@gmail.com" class="contact-item email">
+                <i class="fas fa-envelope"></i> Email ariaputra33@gmail.com
+            </a>
+        </div>
+    </div>
+</body>
+</html>
